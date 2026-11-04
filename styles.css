@@ -1,0 +1,1034 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #111;
+    font-size: 20px;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdownbtn{
+    cursor: pointer;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.dropdown-content a{
+    display: block;
+    padding: 22px;
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+    font-style: italic;
+}
+
+.dropdown-content a:hover{
+    background-color: #f2f2f2;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation:not(.nav-button){
+    margin-top: 25px;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+
+.unlock{
+    text-decoration: none;
+    font-size: 18px;
+    color: #111;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.unlock span{
+    background-color: rgb(105, 105, 174);
+    margin-left: 5px;
+    color: #eee;
+    padding: 5px;
+    border-radius: 4px;
+
+}
+
+.nav-button{
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid black;
+}
+
+div button{
+    background-color: #111;
+    padding: 10px 20px;
+    border-radius: 50px;
+    
+}
+
+.project .case{
+    color: rgb(68, 67, 67);
+    
+}
+
+.project .case:hover{
+    text-decoration: none;
+}
+
+.land{
+    color: rgb(105, 105, 174);
+    width: 500px;
+    margin: 0 auto;
+    font-size: 2.3rem;
+    margin: 2rem auto;
+}
+
+.project p{
+    font-size: 20px;
+    color: rgb(112, 111, 111);
+}
+
+.case p{
+    color: black;
+}
+.project{
+    text-align: center;
+}
+.start-building{
+    background-color: rgb(231, 57, 57);
+    color: white;
+    font-weight: bold;
+    margin:2rem 0 2rem 0;
+    border: 2px solid rgb(231, 57, 57);
+    padding: 15px 30px;
+}
+
+.start-building:hover{
+    background-color: rgb(191, 21, 21);
+    border: 2px solid rgb(191, 21, 21);
+}
+
+.join{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    width: 55%;
+    margin: 3rem auto;
+
+}
+.join span{
+  color: rgb(105, 105, 174);;  
+}
+
+.join img{
+    width: 8rem;
+}
+
+.kevin{
+    padding: 1.5rem;
+    width: 40%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);;
+    border-radius: 1rem;
+}
+
+.kevin p{
+    font-size: 20px;
+    width: 30rem;
+    margin-bottom: 1.5rem;
+    
+}
+
+.kevin img{
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.developer{
+    display: flex;
+}
+
+.developer p{
+    font-size: 15px;
+    margin: 1rem 0.5rem;
+}
+
+.developer span{
+    color: rgb(105, 105, 174);
+    font-weight: bold;
+}
+
+.developers{
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+.real-project p{
+    font-size: 20px;
+    color: rgb(112, 111, 111);
+    
+}
+
+.real-project h2{
+   font-size: 2rem; 
+}
+
+.real-project{
+    width: 70rem;
+    margin-left: 8rem;
+}
+
+.image img{
+    width: 30rem;
+    margin-right: 10rem;
+}
+
+.learning{
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+
+.page{
+    text-align: center;
+    background-color: rgb(247, 247, 255);
+    padding: 2rem 0;
+}
+
+.cards{
+    background-color: rgb(247, 247, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding-bottom: 4rem;
+}
+
+.card{
+padding: 3rem;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);;
+background-color: white;
+border-radius: 0.5rem;
+
+}
+
+.card p{
+margin-top: 2rem;
+font-weight: bold;
+text-align: center;
+font-size: 1.2rem;
+}
+
+.card span{
+    color: rgb(105, 105, 174);
+    padding: 1rem;
+    background-color: rgb(217, 217, 252);
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin: 7rem;
+}
+
+.essential{
+    width: 50rem;
+    margin-top: 2rem;
+}
+
+.essential p{
+    font-size: 20px;
+    color: rgb(112, 111, 111);
+}
+
+.skill{
+    width: 23rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);;
+    border-radius: 1rem;
+    
+}
+
+.skill img{
+    width: 23rem;
+}
+
+.green-dot{
+    color: lightseagreen;
+    background-color:lightseagreen;
+    margin-right: 5px; 
+}
+
+.skill a{
+    text-decoration: none;
+    color: #111;
+}
+
+.skill p{
+   font-size: 20px;
+    color: rgb(112, 111, 111); 
+    padding-bottom: 2rem;
+}
+
+.skill a:hover{
+    text-decoration: underline;
+}
+
+.pad{
+    padding: 1.5rem;
+}
+
+.html{
+    color: rgb(170, 93, 243) ; background-color:rgb(231, 228, 234) ;font-weight: bold; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    margin: 5px;
+    padding: 2px 5px;
+}
+
+.css{
+    color:darkorange; 
+    background-color: rgb(235, 215, 191); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    font-weight: bold;
+    margin: 5px;
+    padding: 2px 5px;
+    
+}
+
+.js{
+    color: tomato;
+    background-color: rgb(244, 187, 177);
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    font-weight: bold;
+    margin: 5px;
+    padding: 2px 5px;
+}
+
+.line{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+}
+
+.color{
+    color: rgb(170, 93, 243);
+    background-color: rgb(170, 93, 243);
+    margin-right: 5px;
+    font-size: 20;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 3rem;
+    margin: 3rem 0 3rem 3rem;
+}
+
+.why-frontend{
+    margin: 0 auto;
+    text-align: center;
+    width: 40rem;
+
+}
+
+.why-frontend h1{
+    font-size: 3rem;
+}
+
+.why-frontend p{
+     font-size: 20px;
+    color: rgb(112, 111, 111); 
+    padding-bottom: 2rem;
+}
+
+.prof{
+    width: 22rem;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 1rem;
+}
+
+.prof p{
+    font-size: 20px;
+    color: rgb(112, 111, 111);
+    margin-top: 10px;
+}
+
+.prof .fa-solid{
+    color: rgb(28, 81, 226);
+    background-color: rgb(207, 220, 253);
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.profession{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+.building{
+    text-align: center;
+    width: 40rem;
+    margin: 0 auto;
+    padding:  5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    
+}
+
+.portfolio{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.related{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.help{
+    font-size: 20px;
+    color: rgb(112, 111, 111);
+    margin-top: 20px;
+}
+
+.practice{
+    width: 20rem;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    margin: 1rem;
+}
+
+.practice a{
+    text-decoration: none;
+    color: #111;
+
+}
+
+.practice a:hover{
+    text-decoration: underline;
+}
+
+.practice p{
+    font-size: 20px;
+    color: rgb(112, 111, 111);
+    margin-top: 10px;
+}
+
+.beginner{
+    display: flex;
+    justify-content: center;
+}
+
+.solution{
+    width: 30rem;
+    margin-left: 1rem;
+}
+
+.solution h2{
+    color:cornflowerblue ;
+}
+
+.solution p{
+    margin-top: 1rem;
+    font-size: 20px;
+    
+}
+
+input{
+    padding: 0.5rem 3rem 0.5rem 0;
+    font-size: 16px;
+}
+
+.solution button{
+    background-color:rgb(231, 57, 57);
+    color: white;
+    font-weight: bold;
+    margin:1rem 0 2rem 0;
+    border: 2px solid rgb(231, 57, 57);
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+.solution button:hover{
+    background-color:  rgb(191, 21, 21);
+    border: 2px solid rgb(191, 21, 21);
+}
+
+footer{
+    display: flex;
+}
+
+footer div{
+    margin: 2rem;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(112, 111, 111);
+    margin-top:1rem ;
+}
+
+footer a:hover{
+text-decoration: underline;
+}
+
+.mentor{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.mentor a{
+    text-decoration: none;
+    color: #111;
+    margin-left: 10px;
+}
+
+.mentor a:hover{
+    text-decoration: underline;
+}
+
+
+
+/*RESPONSIVE*/
+
+/* =================================
+   TABLET RESPONSIVENESS (iPad)
+   ================================= */
+
+@media screen and (max-width: 1024px) {
+
+    /* Navigation */
+    .navigation {
+        padding: 15px;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .nav-right {
+        gap: 15px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .navbar a {
+        font-size: 16px;
+    }
+
+    /* Main heading */
+    .land {
+        width: 90%;
+        font-size: 2.2rem;
+    }
+
+    /* Community section */
+    .join {
+        width: 80%;
+        align-items: center;
+    }
+
+    .join p {
+        font-size: 16px;
+    }
+
+    /* Testimonials */
+    .developers {
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+
+    .kevin {
+        width: 45%;
+    }
+
+    .kevin p {
+        width: 100%;
+        font-size: 17px;
+    }
+
+    /* Learning section */
+    .learning {
+        padding: 2rem;
+        gap: 1.5rem;
+    }
+
+    .real-project {
+        width: 55%;
+        margin-left: 0;
+    }
+
+    .image {
+        width: 45%;
+    }
+
+    .image img {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /* Getting started cards */
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1.5rem;
+    }
+
+    .card {
+        padding: 2rem;
+    }
+
+    .card span {
+        display: inline-block;
+        margin: 0;
+    }
+
+    /* Essential skills */
+    .essential {
+        width: 90%;
+        margin: 2rem auto;
+    }
+
+    .skills {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+        margin: 2rem;
+    }
+
+    .skill {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .skill img {
+        width: 100%;
+    }
+
+    /* Why frontend */
+    .why-frontend {
+        width: 85%;
+    }
+
+    .profession {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 2rem;
+    }
+
+    .prof {
+        width: 100%;
+    }
+
+    /* Building section */
+    .building {
+        width: 85%;
+        padding: 3rem;
+    }
+
+    .portfolio {
+        font-size: 2.2rem;
+    }
+
+    /* Related projects */
+    .beginner {
+        flex-wrap: wrap;
+    }
+
+    .practice {
+        width: 40%;
+    }
+
+    /* Newsletter */
+    .solution {
+        width: 90%;
+    }
+
+    /* Footer */
+    footer {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    footer div {
+        margin: 1.5rem;
+    }
+
+    .mentor {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
+
+
+/* =================================
+   MOBILE RESPONSIVENESS (ANDROID)
+   ================================= */
+
+@media screen and (max-width: 767px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Navigation */
+    .navigation {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .nav-right {
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .navbar a {
+        font-size: 14px;
+    }
+
+    .unlock {
+        font-size: 14px;
+    }
+
+    .nav-button {
+        font-size: 12px;
+    }
+
+    .dropdown-content a {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    /* Allow dropdowns to work on touch screens */
+    .dropdown:hover .dropdown-content,
+    .dropdown:focus-within .dropdown-content {
+        display: block;
+    }
+
+    /* Project introduction */
+    .project {
+        padding: 1rem;
+    }
+
+    .project p {
+        font-size: 16px;
+    }
+
+    .project br,
+    .join br {
+        display: none;
+    }
+
+    .land {
+        width: 100%;
+        font-size: 1.8rem;
+        margin: 1.5rem auto;
+    }
+
+    .start-building {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    /* Community section */
+    .join {
+        width: 100%;
+        padding: 15px;
+        margin: 2rem auto;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .join img {
+        width: 6rem;
+    }
+
+    .join p {
+        font-size: 15px;
+    }
+
+    /* Testimonials */
+    .developers {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1.5rem;
+    }
+
+    .kevin {
+        width: 100%;
+        padding: 1.2rem;
+    }
+
+    .kevin p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .developer {
+        align-items: center;
+    }
+
+    .developer img {
+        width: 4rem;
+    }
+
+    /* Learning section */
+    .learning {
+        flex-direction: column;
+        padding: 1.5rem;
+        margin-top: 2rem;
+        gap: 1.5rem;
+    }
+
+    .real-project {
+        width: 100%;
+        margin: 0;
+    }
+
+    .real-project h2 {
+        font-size: 1.6rem;
+    }
+
+    .real-project p {
+        font-size: 16px;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .image img {
+        width: 100%;
+        margin: 0;
+    }
+
+    /* Getting started */
+    .page {
+        font-size: 1.5rem;
+        padding: 2rem 1rem;
+    }
+
+    .page br {
+        display: none;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .card {
+        padding: 1.5rem;
+    }
+
+    .card p {
+        font-size: 1rem;
+    }
+
+    .card span {
+        display: inline-block;
+        margin: 0;
+    }
+
+    /* Essential skills */
+    .essential {
+        width: 100%;
+        padding: 1rem;
+        margin: 2rem 0;
+    }
+
+    .essential h1 {
+        font-size: 1.6rem;
+    }
+
+    .essential p {
+        font-size: 16px;
+    }
+
+    /* Project cards */
+    .skills {
+        grid-template-columns: 1fr;
+        margin: 1rem;
+        gap: 1.5rem;
+    }
+
+    .skill {
+        width: 100%;
+    }
+
+    .skill img {
+        width: 100%;
+    }
+
+    .skill h2 {
+        font-size: 1.3rem;
+    }
+
+    .skill p {
+        font-size: 16px;
+    }
+
+    .line {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    /* Why frontend */
+    .why-frontend {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .why-frontend h1 {
+        font-size: 1.8rem;
+    }
+
+    .why-frontend p {
+        font-size: 16px;
+    }
+
+    /* Professional benefits */
+    .profession {
+        grid-template-columns: 1fr;
+        margin: 1rem;
+        gap: 1.5rem;
+    }
+
+    .prof {
+        width: 100%;
+    }
+
+    .prof h2 {
+        font-size: 1.3rem;
+    }
+
+    .prof p {
+        font-size: 16px;
+    }
+
+    /* Portfolio building section */
+    .building {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    .portfolio {
+        font-size: 1.8rem;
+    }
+
+    .help {
+        font-size: 16px;
+    }
+
+    /* Related pages */
+    .related {
+        font-size: 2rem;
+    }
+
+    .beginner {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .practice {
+        width: 100%;
+        margin: 0 0 1rem;
+    }
+
+    .practice p {
+        font-size: 16px;
+    }
+
+    /* Newsletter */
+    .solution {
+        width: 100%;
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    .solution p {
+        font-size: 16px;
+    }
+
+    input {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .solution button {
+        width: 100%;
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    footer div {
+        margin: 1rem 0;
+    }
+
+    footer a {
+        font-size: 16px;
+    }
+
+    /* Copyright and bottom links */
+    .mentor {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .mentor div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .mentor a {
+        margin: 0;
+        font-size: 14px;
+    }
+}
